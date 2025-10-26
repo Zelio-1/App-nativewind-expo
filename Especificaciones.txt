@@ -1,0 +1,28 @@
+Para crear un proyecto con NativeWind y expo: npx create-expo-app@latest NativeWind --template blank 
+
+Instalar las dependencias del proyecto: npx expo install nativewind@^4.0.1 react-native-reanimated tailwindcss
+
+Para inicializar el archivo de conf. de tailwindcss: npx tailwindcss init
+
+Para iniciar la app: npx expo start -c
+--------------------
+
+Pasos para crear una app con ReactNative con Expo y NativeWind usando el template --blank, pero deberia jalar con Expo Router
+
+Esta este boiler plate en GitHub 
+cd ..
+git clone https://github.com/leonho/expo-nativewind-boilerplate.git MiAppFuncional
+cd MiAppFuncional
+npm install
+npx expo start -c
+
+Y usando template blank estos son los pasos:
+1.- npx create-expo-app@latest MiApp --template blank
+2.- cd MiApp
+3.- npx expo install expo@~52.0.0
+4.- npx expo install --fix
+5.- npx expo install nativewind react-native-reanimated@~3.17.4 react-native-safe-area-context@5.4.0
+6.- npx expo install --dev tailwindcss@^3.4.17 prettier-plugin-tailwindcss@^0.5.11
+7.- npm install @babel/core babel-preset-expo
+8.- npm install react-native-worklets
+npm install 
